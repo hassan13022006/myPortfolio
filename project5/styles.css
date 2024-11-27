@@ -1,0 +1,203 @@
+body {
+    font-family: "Oswald", sans-serif;
+}
+
+.btn-outline-dark {
+    border: 2px solid #000000;
+    box-shadow: 4px 4px #000000;
+    transition: all 0.4s;
+}
+
+.btn-search, .btn{
+    color: #ffffff; 
+    border: 2px solid #ffffff; 
+}
+
+.btn-search:hover, .btn-more:hover {
+    color: #ffffff; 
+    background-color: #000000; 
+}
+
+.navbar {
+    background-color: white;
+    background-image: linear-gradient(to top, #4a4646 10%, rgba(0, 0, 0, 0) 100%);
+    
+}
+.navbar .nav-link {
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+}
+.navbar .nav-link:hover {
+    color: rgb(99, 105, 18);
+}
+
+.more{
+    color: #ffffff;
+}
+
+
+
+.container .row .text-center .portfolio-image{
+    width: 30rem;
+    height: 30rem;
+    
+}
+
+.container .row .portfolio-content {
+    padding: 100px;
+}
+
+.card-group {
+    margin: 23px;
+}
+
+.logo {
+    width: 11.5vw;
+    height: 8vh;
+
+}
+
+.shit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.navbar {
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1020; /* Ensure the navbar is on top */
+}
+
+.navbar-brand .logo {
+    width: 11.5vh;
+    height: 8vh;
+}
+
+
+
+.navbar-toggler-icon {
+    background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"%3E%3Cpath stroke="rgba%28135, 135, 135, 0.5%29" stroke-width="2" linecap="round" linejoin="round" d="M4 7h22M4 15h22M4 23h22"/%3E%3C/svg%3E');
+}
+
+.lead a{
+    text-decoration: none;
+}
+
+
+.featurette-divider {
+    margin: 88px 44px 80px 44px;
+}
+
+.d-flex {
+    display: flex !important;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.featurette-image {
+    width: 100%; 
+    height: auto;
+}
+
+.about{
+    margin: 60px;
+    text-align: center;
+}
+
+/* p{
+    font-size: 23px;
+} */
+
+.lead{
+    text-align: center;
+}
+.dark {
+    border: 2px solid #000000;
+    box-shadow: 4px 4px #000000;
+    transition: all 0.4s;
+}
+
+/* @media screen and (min-width:1326px) {
+    .bla{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+     img-fluid {
+        width: 80%;
+    }
+} */
+
+.pro img{
+    width: 400px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+}
+
+.carousel img{
+    height: 90vh;
+}
+
+.textcontent {
+    font-size: 23px;
+    color: #030303;
+}
+
+.main-heading{
+    color:#000000;
+    font-family: "Jaro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+
+
+
+/* Larger screens, text size increases */
+@media screen and (min-width: 1155px) {
+    .textcontent {
+        font-size: 25px;
+    }
+}
+
+/* Smaller screens, text size decreases */
+@media screen and (max-width: 768px) {
+    .textcontent {
+        font-size: 13px;
+    }
+    .about {
+        margin: 20px; /* Adjust this value to what works best for mobile */
+    }
+
+    .container, .shits {
+        margin: 10px; /* Reduce margin for the container on mobile */
+        padding: 10px; /* You can also adjust padding to make it more compact */
+    }
+
+    /* Adjust other specific sections if necessary */
+    .carousel img {
+        height: 50vh; /* Reduce carousel height on mobile if necessary */
+    }
+
+}
+
+/* Extra small screens like mobile devices */
+@media screen and (max-width: 480px) {
+    .textcontent {
+        font-size: 6px;
+    }
+    
+}
+
+.bod{
+    background-color: #f37d7d;
+    box-shadow: 10px 13px rgb(124, 160, 124) ;
+}
